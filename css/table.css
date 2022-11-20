@@ -1,0 +1,36 @@
+.table {
+    margin: auto;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    border-collapse: collapse;
+    line-height: 1.6;
+}
+
+.table__caption {
+    font-family: 'Italianno', cursive;
+    color: hsl(0, 0%, 25%);
+    font-size: 48px;
+    font-style: italic;
+    background-color: #cad5de;
+    padding: 2px;
+    letter-spacing: 13px;
+    text-align: center;
+    text-shadow: -7px 3px 4px hsl(207, 27%, 50%);
+}
+
+.table__cell {
+    border: 1px solid #ccc;
+    border-width: 0 0 1px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.table__cell--header {
+    color: #eee;
+    background-color: #5d7c9a;
+}
+
+.table__row:nth-child(even) {
+    background: #cad5de;
+}

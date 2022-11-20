@@ -1,0 +1,43 @@
+.section {
+    background-color: hsl(210, 25%, 68%);
+    padding: 30px;
+    margin-bottom: 45px;
+}
+
+.section__title {
+    font-family: 'Italianno', cursive;
+    color: hsl(0, 0%, 25%);
+    font-size: 48px;
+    font-style: italic;
+    background-color: #cad5de;
+    padding: 30px;
+    letter-spacing: 13px;
+    text-align: center;
+    text-shadow: -7px 3px 4px hsl(207, 27%, 50%);
+}
+
+.article {
+    background-color: #cad5de;
+    line-height: 1.6;
+    padding: 21px 50px;
+}
+
+.article__title {
+    color: #3044a0;
+    background-color: hsl(207deg 15% 92%);
+    text-shadow: 1px 1px 1px rgb(255, 255, 255);
+    padding: 15px;
+}
+
+.article__subTitle {
+    padding: 0 20px;
+}
+
+.article__space {
+    padding: 0 10px;
+    margin-bottom: 70px;
+}
+
+.shadows {
+    box-shadow: 3px 3px 3px #222;
+}
